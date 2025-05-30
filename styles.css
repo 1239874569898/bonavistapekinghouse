@@ -1,0 +1,497 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FADBD8;
+    color: #3A7643;
+    text-align: center;
+    font-size: 1.3rem; 
+  }
+  
+  .container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+  }
+  
+  .name-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+  
+  .chinese-name {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .english-name {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  
+  .tagline {
+    color: #C71313;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+  }
+  
+  .address,
+  .website {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+  
+  .phone {
+    font-size: 2.8rem;
+    color: #C71313;
+    font-weight: bold;
+    margin: 1.5rem 0;
+  }
+  
+  .website {
+    color: #3A7643;
+    font-style: italic;
+    font-size: 1.2rem;
+  }
+  
+  .delivery,
+  .discounts,
+  .buffet {
+    margin-top: 2rem;
+  }
+  
+  .delivery-title {
+    color: #C71313;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .delivery-text:first-of-type {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  .delivery-text {
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+  }
+  
+  .discounts p span,
+  .buffet p {
+    color: #C71313;
+    font-weight: bold;
+    font-size: 2.8rem;
+  }
+  
+  .discounts p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .buffet {
+    background-color: white;
+    display: inline-block;
+    padding: 1.5rem 3rem;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+  }
+  
+  .buffet p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+  }
+
+  .buffet-outer {
+    background-color: #C71313;
+    padding: 1rem;
+    border-radius: 2rem;
+    display: inline-block;
+    margin-top: 2.5rem;
+    border: 4px solid #3A7643; 
+  }
+  
+  .buffet-inner {
+    background-color: white;
+    padding: 1.5rem 3rem;
+    border-radius: 2rem;
+    border: 4px solid #3A7643; 
+  }
+  
+  .buffet-inner p {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #3A7643;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .special-outer {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    display: inline-block;
+    margin: 3rem auto 2rem;
+    border: 4px solid #3A7643;
+  }
+  
+  .special-inner {
+    background-color: #b2f0c3;
+    border-radius: 2rem;
+    padding: 2rem;
+    color: #3A7643;
+  }
+  
+  .special-title {
+    background-color: #C71313;
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .special-price {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .special-price span {
+    color: #C71313;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  .special-sub {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .special-includes-title {
+    font-weight: bold;
+    color: #C71313;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+  
+  .includes-list,
+  .entree-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5rem 0;
+  }
+  
+  .includes-list li,
+  .entree-list li {
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+  }
+  
+  .plus {
+    color: #C71313;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+  }
+  
+  .select-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .disclaimer {
+    color: #C71313;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+  .business-hours {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hours-title {
+    color: #C71313;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hours-text {
+    font-size: 1.2rem;
+    color: #3A7643;
+  }
+  
+  .party-info {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #3A7643;
+    font-weight: bold;
+  }
+
+  .menu-section {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 0 1rem;
+  }
+  
+  .menu-category {
+    color: #C71313;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 3rem 0 1rem;
+    text-transform: uppercase;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-list li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    color: #3A7643;
+    margin: 0.3rem 0;
+    white-space: nowrap;
+  }
+  
+  .menu-subhead {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #3A7643;
+    padding: 0 0.5rem;
+    margin-top: -1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu-list .item-name {
+    white-space: normal;
+    text-align: left;           
+    display: inline-block;      
+    min-width: 200px;           
+  }
+
+  .menu-list .item-price {
+    white-space: nowrap;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    min-width: 4.5rem;        
+    text-align: right;
+  }
+  
+  
+  
+  .menu-list li {
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.1rem;
+    color: #3A7643;
+    margin: 0.3rem 0;
+    justify-content: flex-start;
+  }
+  
+  .menu-list:not(.three-col) li span:first-child {
+    flex: 1;
+    position: relative;
+    padding-right: 10px;
+  }
+  
+  .menu-list:not(.three-col) li span {
+    position: relative;
+    background-color: #FADBD8;
+    z-index: 1;
+    padding: 0 0.3rem;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+  
+  .menu-list.three-col li {
+    justify-content: space-between;
+  }
+  
+  .menu-list.three-col li span:nth-child(1) {
+    flex: 1;
+    padding-right: 10px;
+    position: relative;
+    font-weight: bold;
+  }
+  
+  .menu-list.three-col li span:nth-child(1)::after {
+    content: "...........................................";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 0;
+    color: #3A7643;
+    z-index: 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .menu-list.three-col li span:nth-child(2),
+  .menu-list.three-col li span:nth-child(3) {
+    min-width: 3rem;
+    text-align: right;
+  }
+  
+  
+  .menu-list li {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #3A7643;
+    margin: 0.3rem 0;
+  }
+  .item-name {
+    white-space: normal !important;
+    word-break: break-word;
+    font-size: 1rem; 
+    line-height: 1.4rem;
+  }
+  
+  
+  .item-price {
+    white-space: nowrap;
+    font-weight: bold;
+    padding-left: 0.5rem;
+  }
+  
+  .dots {
+    min-width: 120px;              
+    max-width: 240px;              
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-bottom: 1px dotted #3A7643;
+    margin: 0 0.5rem;
+    transform: translateY(0.2rem);
+  }
+  
+
+  .menu-note {
+    text-align: center;
+    margin: 0.5rem 0 1rem 0;
+    color: #3A7643;
+    font-size: 1.1rem;
+    font-weight: normal;
+    line-height: 1.6rem;
+  }
+
+  .menu-subhead {
+    display: flex;
+    align-items: center;
+    margin-top: -1rem;
+    margin-bottom: 0.3rem;
+    color: #3A7643;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .menu-subhead .menu-head-name {
+    flex: 1;
+    padding-right: 10px;
+  }
+  
+  .menu-subhead .item-price {
+    min-width: 4.5rem;
+    text-align: right;
+    padding-left: 0.5rem;
+  }
+
+  .item-price .size-label {
+    font-size: 0.9rem;
+    color: #666;
+    margin-left: 0.2rem;
+  }
+  
+  
+/* 移动端优化 */
+@media (max-width: 768px) {
+    body {
+      font-size: 1rem; 
+      padding: 0 0.5rem;
+    }
+  
+    .container {
+      padding: 2rem 0.5rem;
+    }
+  
+    .name-box {
+      padding: 1.5rem;
+    }
+  
+    .chinese-name {
+      font-size: 2rem;
+    }
+  
+    .english-name {
+      font-size: 1.5rem;
+    }
+  
+    .tagline {
+      font-size: 1.2rem;
+    }
+  
+    .phone {
+      font-size: 2rem;
+    }
+  
+    .delivery-title {
+      font-size: 1.8rem;
+    }
+  
+    .discounts p span {
+      font-size: 2rem;
+    }
+  
+    .buffet-inner p {
+      font-size: 1.2rem;
+    }
+  
+    .menu-category {
+      font-size: 1.4rem;
+    }
+  
+    .menu-list li {
+      flex-direction: column; 
+      align-items: flex-start;
+    }
+  
+    .menu-list li span.dots {
+      display: none; 
+    }
+  
+    .menu-list li .item-price {
+      padding-left: 0;
+      text-align: left;
+      font-size: 1rem;
+      margin-top: 0.2rem;
+    }
+  }
+  
+  
+  
+  
+  
